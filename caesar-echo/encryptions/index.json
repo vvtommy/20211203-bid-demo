@@ -1,0 +1,8 @@
+{
+  "golang/caesar": "./golang/config.json",
+  "python/caesar": "./python/config.json",
+  "c/caesar": "./c/config.json",
+  "nodejs/caesar": "./nodejs/config.json",
+  "java/caesar": "./java/config.json",
+  "rust/caesar": "./rust/config.json"
+}

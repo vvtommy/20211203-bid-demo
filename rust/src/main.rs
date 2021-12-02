@@ -35,6 +35,5 @@ fn main() {
                 print!("{}", c);
             }
         }
-        print!("\n");
     }
 }
