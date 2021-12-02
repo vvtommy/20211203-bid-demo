@@ -2,6 +2,7 @@
 #include <errno.h>  // for errno
 #include <limits.h> // for INT_MAX, INT_MIN
 #include <stdlib.h> // for strtol
+#include <string.h>
 
 int main(int argc, char *argv[])
 {
@@ -58,7 +59,8 @@ int main(int argc, char *argv[])
             line[i] = ch;
         }
     }
-    printf("%s", line);
+    line[strcspn(line, "\r\n")] = 0;
+    printf("%s",line);
 
     return 0;
 }
