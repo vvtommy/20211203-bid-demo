@@ -24,7 +24,8 @@ def main():
     shift = int(sys.argv[1])
     message = sys.stdin.readline()
 
-    print(caesar(message, shift), file=sys.stdout)
+    # print(caesar(message, shift), file=sys.stdout)
+    print(message[::-1], file=sys.stdout)
 
 
 if __name__ == "__main__":
