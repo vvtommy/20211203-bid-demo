@@ -1,5 +1,5 @@
 {
   "runner": "python",
   "execute": "caesar-cipher.py",
-  "params": "4"
+  "params": "2"
 }
